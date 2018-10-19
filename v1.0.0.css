@@ -1,0 +1,59 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#game .wrapper {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.messageCenter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: solid goldenrod 3px;
+  font-size: 25px;
+}
+
+.door {
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+.door img {
+  width: 0px;
+  display: block;
+  margin: 0 auto;
+  align-self: center;
+  transition: .5s;
+}
+
+.slide {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  transition: .7s;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected {
+  border: goldenrod 3px solid;
+  box-shadow: 5px 5px 10px black;
+}
